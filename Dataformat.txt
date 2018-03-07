@@ -29,3 +29,10 @@ Tecken som måste escape:as:
 -<
 ->
 -?
+
+Till XML:
+<?xml version="1.0"?>
+<Godis klubba/>
+<Skogsdjur älg="sju-horn">
+    <Färg blå="akvarell"/>
+</Skogsdjur>
