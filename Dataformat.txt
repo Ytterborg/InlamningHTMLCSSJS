@@ -1,0 +1,31 @@
+Exempel:
+%Godis%klubba??+%Skogsdjur%älg<>sju-horn?%Färg%blå<>akvarell???
+
+Typ: Godis 
+Flagg-attribut: klubba 
+Värde-attribut: älg 
+Barn:%Färg%blå<>akvarell??
+--------------------------------------------------------------------------
+Dataformatsregler:
+-Vita tecken ignoreras.
+-Stora eller små bokstäver har ingen betydelse.
+
+-Före och efter att en typ ska deklareras används %.
+-Det ord som kommer direkt efter % är ett flagg-attribut eller ett värde-attribut.
+-Varje nytt attribut måste ha en typ framför sig.
+
+-Ett flagg-attribut eller ett värde-attribut separeras från ett annat flagg-attribut
+ eller ett annat värde-attribut med tecknet +.
+
+-Ett attribut med värden deklareras med tecknen <>.
+
+-En förälders barn finns mellan ?barn?.
+
+Tecken som måste escape:as:
+-Du escape:ar ett tecken genom att sätta & framför.
+-&
+-%
+-+
+-<
+->
+-?
