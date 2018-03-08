@@ -1,0 +1,29 @@
+@blue: blue;
+@red: red;
+
+h1{
+    color: @blue;
+}
+
+p{
+    font-weight: 700;
+}
+
+li {
+    list-style-type: none;
+}
+
+li:before {
+    background-image: url(Images/lollipop.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    content: " ";
+}
+
+body{
+    background-color: @red;
+    margin-left: 30em;
+    margin-right: 10em;
+}
